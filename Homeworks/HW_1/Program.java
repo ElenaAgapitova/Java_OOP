@@ -19,11 +19,13 @@ public class Program {
                 20, "шт", 4, 2);
 
         Goods[] goods = {milk, bread, eggs, lemonade, nipple, diapers, masks, paper};
+        showGoods(goods);
 
+    }
+    static void showGoods(Goods [] goods){
         System.out.println("============== ТОВАРЫ ===================\n");
         for (Goods item: goods) {
-            System.out.println(item + "\n");
+            System.out.println(item);
         }
-
     }
 }

@@ -18,6 +18,6 @@ public class Diapers extends ChildrenGoods{
     public String toString() {
         return new StringBuilder().append(super.toString())
                 .append(String.format("\tРазмер: %s;\n\tМин. вес: %d кг;\n" +
-                        "\tМакс. вес: %d кг;", size, minWeight, maxWeight)).toString();
+                        "\tМакс. вес: %d кг;\n", size, minWeight, maxWeight)).toString();
     }
 }
