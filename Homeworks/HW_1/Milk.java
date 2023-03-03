@@ -14,7 +14,7 @@ public class Milk extends Food{
     @Override
     public String toString() {
         return new StringBuilder().append(super.toString())
-                .append(String.format("\tЖирность: %.1f;\n" +
+                .append(String.format("\tЖирность, %%: %.1f;\n" +
                         "\tОбъем, л: %.1f;\n", fatContent, volume)).toString();
     }
 }
