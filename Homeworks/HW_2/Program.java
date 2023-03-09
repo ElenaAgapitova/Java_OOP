@@ -92,7 +92,7 @@ public class Program {
         System.out.println();
     }
 
-    // взяла по одному представителю из групп дикие животные, домашние и птицы
+
     static void addAnimalZoo(Scanner sc, Zoo zoo) {
         System.out.print("Введите высоту животного: ");
         double growth = sc.nextDouble();
